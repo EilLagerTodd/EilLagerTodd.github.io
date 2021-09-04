@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div id="bob" class="outline bob">
+        <span id="en"></span>
+        <span id="ko"></span>
+    </div>
+
+    <div id = "clock" class="outline">
+        <h1 id = "watch">00:00:00</h1>
+    </div>
+    
+    <form id="login-form" class="hidden login">
+        <input required maxlength="6" id="login-form-input" type="text" placeholder="당신의 이름은?"/>
+    </form>
+
+
+      <h4 id ="greeting" class ="greetings outline"></h4>
+
+    <form id="todo-form" class="toDoForm outline">
+        <input type="text" placeholder="당신은 할 수 있습니다" required/>
+    </form>
+
+    <ul id = "todo-list"></ul>
+
+    <div id="weather" class="weather outline">
+        <span></span>
+        <span></span>
+      </div>
+
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/bob.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+
+</body>
+</html>
